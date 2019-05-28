@@ -39,12 +39,14 @@ def selective_tweet_shortener(tweet)
   end
 end
 
-def selectve_tweet_shortener(tweets)
+def shortened_tweet_truncator(tweet)
+
+def selective_tweet_shortener2(tweets)
   tweets.each do |tweet|
     if tweet.size > 140
-      puts word_substituter(tweet)
+      word_substituter(tweet)
     else
-      puts tweet
+      tweet
     end
   end
 end
