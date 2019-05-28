@@ -14,6 +14,6 @@ def dictionary
   } 
 end
 
-def word_substituter(tweet)
+def word_substituter(dictionary, tweet)
   tweet_array = tweet.split(' ')
-  tweet_array.maps 
+  dictionary.each  
