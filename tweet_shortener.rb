@@ -17,7 +17,7 @@ end
 def word_substituter(tweet)
   dictionary
   tweet_array = tweet.split(' ')
-  tweet_array.each do |word|
+  tweet_array.maps do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
   end
